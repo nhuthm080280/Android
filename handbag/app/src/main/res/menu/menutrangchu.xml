@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/itGioHang"
+        android:title="Giỏ Hàng"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_item_giohang"/>
+
+    <item
+        android:title="more"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        app:showAsAction="always">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>
+    <!-- res-auto để hỗ trợ phiên bản thấp hơn-->

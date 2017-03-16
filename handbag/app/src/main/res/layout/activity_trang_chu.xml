@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trang_chu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="crystaltiger.com.handbag.View.TrangChu.TrangChuActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgToolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                android:id="@+id/toolbar"
+                app:logo="@drawable/logo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/bgsearch">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_search_black_24dp"
+                    android:text="Tìm kiếm trên Lazada"
+                    android:layout_gravity="start"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:background="@color/colorWhite"
+                    android:layout_marginLeft="10dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/bgToolbar"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ic_photo_camera_black_24dp"
+                    android:background="@color/colorWhite"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+</RelativeLayout>

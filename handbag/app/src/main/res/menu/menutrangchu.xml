@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
     <item
         android:id="@+id/itSearch"
         android:title="Search"
@@ -18,8 +19,45 @@
     <item
         android:title="more"
         android:icon="@drawable/ic_more_vert_white_24dp"
-        app:showAsAction="always">
-        <menu>
+        app:showAsAction="always"
+        >
+        <menu >
+            <item
+                android:id="@+id/itDangNhap"
+                android:title="Đăng nhập"
+                android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+                />
+
+            <item
+                android:id="@+id/itThongBao"
+                android:title="Thông Báo"
+                android:icon="@drawable/ic_notifications_black_24dp"/>
+
+            <item
+                android:id="@+id/itMongMuon"
+                android:title="Danh Sách Mong Muốn"
+                android:icon="@drawable/ic_favorite_border_black_24dp"/>
+
+            <item
+                android:id="@+id/itDonHang"
+                android:title="Đơn Hàng Của Tui"
+                android:icon="@drawable/ic_content_paste_black_24dp"/>
+
+
+            <item
+                android:id="@+id/itCaiDat"
+                android:title="Cài Đặt"
+                android:icon="@drawable/ic_settings_black_24dp"/>
+
+            <item
+                android:id="@+id/itChinhSach"
+                android:title="Chính Sách"
+                android:icon="@drawable/ic_note_black_24dp"/>
+
+            <item
+                android:id="@+id/itTroGiup"
+                android:title="Trợ Giúp"
+                android:icon="@drawable/ic_help_outline"/>
 
         </menu>
     </item>
